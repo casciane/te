@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url(https://www.artmajeur.com/medias/mini/r/o/rosa-martinelli-1710592/artwork/16437316_img-20220406-170845834.jpg?v=1673180296.jpg?v); 
+    padding: 13%;
+    color: aliceblue;
+    
+}
+.quiz-container{
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+#pergunta{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#opcoes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.correto{
+    background-color: #8bc34a;
+
+}
+
+.incorreto{
+    background-color: rgb(128, 0, 0);
+}
+
+
